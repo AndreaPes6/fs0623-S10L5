@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap');
+
+/* generale */
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+#sfondo, html {
+  background-image: url('/src/assets/nuvoleBlurrate.jpg') ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.App {
+  background: none;
+}
+
+/* navbar */
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.navbar {
+  background: linear-gradient(180deg, rgba(0,124,144,1) 0%, rgba(14,140,205,1) 100%);
+  width: 100%;
+}
+
+/* BarraDiRicerca */
+form {
+    display: flex;
+    justify-content: center;
+  }
+
+  input {
+    background-color: whitesmoke !important;
+    margin-right: 1rem;
+  }
+
+  button {
+    color: gray !important;
+    background-color: whitesmoke !important;
+    border: none !important;
+  }
+
+/* Card */
+
+.card-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.card-body {
+  background-color: whitesmoke;
+}
+
+/* cittàImportanti */
+
+#cittaImportanti {
+  margin-top: 3rem;
+  display: flex ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
