@@ -1,4 +1,3 @@
-// App.js
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ComponentsStyle.css';
@@ -48,7 +47,7 @@ function App() {
           <CittaImportanti cityName="Roma" />
           <CittaImportanti cityName="Londra" />
           <CittaImportanti cityName="New York" />
-          <CittaImportanti cityName="Instabul" />
+          <CittaImportanti cityName="Cagliari" />
         </div>
       </div>
     </div>

@@ -27,7 +27,7 @@ function CittaImportanti({ cityName }) {
 
   return (
     <Card style={{ width: '18rem' }} className="mb-2">
-      <Card.Header>{cityName}</Card.Header>
+    
       <Card.Body>
         <Card.Title>{cityName}</Card.Title>
         <Card.Text>
